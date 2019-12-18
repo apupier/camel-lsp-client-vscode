@@ -2,7 +2,7 @@
 
 ## 0.0.21
 
-- Completion for possible enum values of a Camel component property in properties file
+- Completion for possible enum values and booleans of a Camel component property in properties file
 
 ## 0.0.20
 
