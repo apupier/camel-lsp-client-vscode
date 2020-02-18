@@ -13,3 +13,5 @@ CONTRIBUTING.md
 .vscode-test/**
 test-resources
 testFixture/**
+coverconfig.json
+coverage/**

@@ -3,6 +3,7 @@ import * as cp from 'child_process';
 import * as path from 'path'
 
 async function runTest() {
+
 	try {
 		const extensionDevelopmentPath = path.resolve(__dirname, '../../../');
 		const extensionTestsPath = path.resolve(__dirname, './');
