@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-node('rhel7'){
+node('rhel8'){
 	stage('Checkout repo') {
 		deleteDir()
 		git url: 'https://github.com/apupier/camel-lsp-client-vscode', branch: 'FUSETOOLS2-490-trySetBackTo1.45.1'
