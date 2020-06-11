@@ -8,7 +8,7 @@ async function runTest() {
 		const extensionTestsPath = path.resolve(__dirname, './');
 		const testWorkspace = path.resolve(__dirname, '../../../testFixture');
 
-		const vscodeExecutablePath : string = await downloadAndUnzipVSCode('stable');
+		const vscodeExecutablePath : string = await downloadAndUnzipVSCode('1.45.1');
 		console.log(`vscodeExecutablePath = ${vscodeExecutablePath}`);
 
 		const cliPath: string = resolveCliPathFromVSCodeExecutablePath(vscodeExecutablePath);
