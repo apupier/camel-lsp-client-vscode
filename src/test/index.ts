@@ -8,7 +8,8 @@ export function run(): Promise<void> {
 		ui: 'bdd',
 		color: true,
 		timeout: 100000,
-		reporter: 'mocha-jenkins-reporter'
+		reporter: 'mocha-jenkins-reporter',
+		require: ['ts-node/register', 'source-map-support/register']
 	});
 
 	const testsRoot = path.resolve(__dirname, '..');
