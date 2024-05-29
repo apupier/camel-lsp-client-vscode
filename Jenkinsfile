@@ -3,8 +3,8 @@
 node('rhel8'){
 	stage('Checkout repo') {
 		deleteDir()
-		git url: 'https://github.com/camel-tooling/camel-lsp-client-vscode.git',
-		    branch: 'main'
+		git url: 'https://github.com/apupier/camel-lsp-client-vscode.git',
+		    branch: '2400-removeCycloneDxExecutable-testjenkinsci'
 	}
 
 	stage('Install requirements') {
