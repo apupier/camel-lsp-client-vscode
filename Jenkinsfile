@@ -69,6 +69,7 @@ node('rhel8'){
 		--output-file manifest.json
 		"""
 		archiveArtifacts artifacts:"manifest.json"
+		sh "rm cyclonedx-linux-x64"
 	}
 }
 
